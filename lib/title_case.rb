@@ -1,0 +1,3 @@
+class TitleCase
+
+end
