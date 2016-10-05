@@ -1,9 +1,9 @@
 class TitleCase
   # Correctly formats input string to title case as specified
   def self.format_title(title)
-    # Lower case input
+    # Lowercase all input
     title = title.downcase
-    # Split sentence to wordsa
+    # Split sentence to words
     title = title.split(' ')
     # Capitalise word if is first, last or not in exempt list
     exempt_list = ['a', 'an', 'and', 'the', 'but', 'or', 'for', 'nor', 'on', 'at', 'to', 'from', 'by']
